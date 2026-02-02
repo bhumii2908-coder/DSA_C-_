@@ -1,10 +1,15 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int p,r,t;
-    cin>>p>>r>>t;
-    int si=(p*r*t)/100;
-    cout<<si<<endl;
+int n=5 ;
+cin>>n;
+for(int i=1;i<=n;i++){
+    for(int j=1;j<=2*i-2 ;j++){
+    cout<<" ";
+    }
+    for(int j=1;j<=n-i+1;j++){
+    cout<<" ";
+    }
     return 0;
-
-}
+} 
+}   
